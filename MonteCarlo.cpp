@@ -58,12 +58,12 @@ float f(float x){
     //return exp(-5*pow(x-3,6));
 }
 
-//均匀分布函数
+//均匀分布概率密度函数
 float pdf1(float x, float lowBound, float highBound){
     return 1.f/(highBound - lowBound);
 }
 
-//正态分布函数
+//正态分布概率密度函数
 float pdf2(float x, float miu, float sigma){
     return (1.f/(sigma*pow(2*PI,0.5f)))*exp(-(0.5f)*pow(x-miu,2)/(sigma*sigma));
 }
