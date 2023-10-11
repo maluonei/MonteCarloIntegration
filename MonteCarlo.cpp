@@ -52,7 +52,7 @@ class NormalDistributionGenerator {
         }
 };
 
-//带求解函数
+//待求解函数
 float f(float x){
     return x*x*x;
     //return exp(-5*pow(x-3,6));
